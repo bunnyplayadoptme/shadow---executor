@@ -47,7 +47,7 @@ Frame.Draggable = true
 -- Title
 Title.Size = UDim2.new(1, -60, 0, 30)
 Title.BackgroundColor3 = Color3.fromRGB(40, 0, 60)
-Title.Text = "👻 CODE PHANTOM EXECUTOR"
+Title.Text = "CODE PHANTOM EXECUTOR"
 Title.TextColor3 = Color3.fromRGB(200, 0, 255)
 Title.Font = Enum.Font.SourceSansBold
 Title.TextSize = 18
@@ -134,7 +134,7 @@ local function minimizeFrame()
     minimized = true
     Frame.Size = UDim2.new(0, 300, 0, 30)
     Frame.Position = UDim2.new(0.5, -150, 0, 0)
-    Title.Text = "👻 CODE PHANTOM"
+    Title.Text = "CODE PHANTOM"
     ExpandButton.Visible = true
     MinimizeButton.Visible = false
     InputBox.Visible = false
@@ -150,7 +150,7 @@ local function expandFrame()
     minimized = false
     Frame.Size = UDim2.new(0, 500, 0, 420)
     Frame.Position = UDim2.new(0.5, -250, 0.5, -210)
-    Title.Text = "👻 CODE PHANTOM EXECUTOR"
+    Title.Text = "CODE PHANTOM EXECUTOR"
     ExpandButton.Visible = false
     MinimizeButton.Visible = true
     InputBox.Visible = true
